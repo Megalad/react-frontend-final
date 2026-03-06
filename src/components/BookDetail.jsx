@@ -9,6 +9,8 @@ function apiUrl(path) {
 }
 
 export function BookDetail() {
+  //TODO: Implement your Book management in detail here, i.e. Update or Delete
+
   const { id } = useParams();
   const { user } = useUser();
   const isAdmin = useMemo(() => user.role === "ADMIN", [user.role]);

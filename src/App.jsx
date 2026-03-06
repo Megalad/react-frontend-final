@@ -3,6 +3,8 @@ import { Navigate, Outlet, Route, Routes, Link } from "react-router-dom";
 import BookBorrow from "./components/BookBorrow";
 import { BookDetail } from "./components/BookDetail";
 import Books from "./components/Books";
+// import { Items } from './components/Items';
+// import { ItemDetail } from './components/ItemDetail';
 import Login from "./components/Login";
 import Logout from "./components/Logout";
 import Profile from "./components/Profile";

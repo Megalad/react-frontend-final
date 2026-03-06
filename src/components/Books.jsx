@@ -9,6 +9,8 @@ function apiUrl(path) {
 }
 
 export default function Books() {
+  //TODO: Implement your Book list and create here, be careful about user's role.
+
   const { user } = useUser();
   const isAdmin = useMemo(() => user?.role === "ADMIN", [user?.role]);
 
